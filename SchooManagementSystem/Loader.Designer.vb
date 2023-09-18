@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Main
+Partial Class Loader
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,15 +22,29 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Label1 = New Label()
         SuspendLayout()
         ' 
-        ' Main
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(144, 44)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(80, 15)
+        Label1.TabIndex = 0
+        Label1.Text = "Loading.........."
+        ' 
+        ' Loader
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(792, 508)
-        Name = "Main"
-        Text = "Main"
+        ClientSize = New Size(358, 98)
+        Controls.Add(Label1)
+        Name = "Loader"
+        Text = "Loader"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
+
+    Friend WithEvents Label1 As Label
 End Class

@@ -1790,11 +1790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\SchooManagementSystem\\SchooManagementSystem\\SchooManagementSystem.vbproj",
+      "projectUniqueName": "F:\\python\\SchoolMGT\\SchooManagementSystem\\SchooManagementSystem.vbproj",
       "projectName": "SchooManagementSystem",
-      "projectPath": "C:\\Users\\User\\source\\repos\\SchooManagementSystem\\SchooManagementSystem\\SchooManagementSystem.vbproj",
+      "projectPath": "F:\\python\\SchoolMGT\\SchooManagementSystem\\SchooManagementSystem.vbproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\SchooManagementSystem\\SchooManagementSystem\\obj\\",
+      "outputPath": "F:\\python\\SchoolMGT\\SchooManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
